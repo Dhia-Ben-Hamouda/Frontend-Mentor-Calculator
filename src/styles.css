@@ -81,3 +81,21 @@ button:hover{
   background:#647299;
   color:white;
 }
+
+@media(min-width:281px) and (max-width:640px)
+{
+
+  .container{
+    width:350px;
+  }
+
+  .bottom{
+    padding: 0rem;
+    grid-template-columns: repeat(4 , 1fr);
+    background: none;
+  }
+
+  button:hover{
+    transform: scale(1);
+  }
+}
