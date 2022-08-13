@@ -52,7 +52,7 @@ const App = ()=>{
           <button onClick={addChar}>.</button>
           <button onClick={addChar}>0</button>
           <button onClick={addChar}>/</button>
-          <button onClick={addChar}>x</button>
+          <button onClick={addChar}>*</button>
 
           <button onClick={remove} className="reset">RESET</button>
           <button onClick={calculate} className="eqaul">=</button>
