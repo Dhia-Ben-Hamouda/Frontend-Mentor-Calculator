@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body{
+  background:#3B4664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+  width:500px;
+  height:550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.top{
+  background:#181F32;
+  width:100%;
+  height:25%;
+  border-radius: 12px;
+  padding:2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top h1{
+  font-size: 45px;
+  color:white;
+}
+
+.bottom{
+  border-radius: 12px;
+  background:#252C45;
+  height:75%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4 , auto);
+  padding: 2rem;
+  gap:15px;
+}
+
+button{
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  background: #EAE3DB;
+  color:#42495B;
+  border:none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+.reset , .eqaul{
+  grid-column: span 2;
+  color:white;
+}
+
+.eqaul{
+  background:#D13F30;
+  
+}
+
+.reset , .delete{
+  background:#647299;
+  color:white;
+}
