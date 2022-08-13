@@ -20,7 +20,7 @@ const App = ()=>{
 			setRes("");
 			return;
 		}
-		setRes(res.slice(0, res.length - 1));
+		setRes(res.toString().slice(0, res.length - 1));
 	}
 
 	function calculate() {
